@@ -1,0 +1,19 @@
+name = Tomormonde
+description = Clean admin theme.
+base theme = tao
+core = 7.x
+engine = phptemplate
+
+regions[content] = Content
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+scripts[] = js/jquery_cookie.js
+scripts[] = js/rubik.js
+stylesheets[screen][] = core.css
+stylesheets[screen][] = icons.css
+stylesheets[screen][] = style.css
+stylesheets[screen][] = views-admin-rubik.css
+stylesheets-conditional[lt IE 9][all][] = ie8-and-below.css
+

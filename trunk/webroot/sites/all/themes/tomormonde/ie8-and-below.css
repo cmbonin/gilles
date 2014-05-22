@@ -1,0 +1,7 @@
+/*  Ie 8 & below conditional CSS */
+
+#wrapper{
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#999999')";
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
