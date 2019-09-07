@@ -1,0 +1,16 @@
+{
+  "name": "gillesaustraliangarlic",
+  "version": "1.0.0",
+  "description": "gillesaustraliangarlic",
+  "main": "index.hmtl",
+  "scripts": {
+    "start": "http-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.40.1",
+    "webpack-cli": "^3.3.8"
+  }
+}
